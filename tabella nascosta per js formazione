@@ -1,0 +1,48 @@
+<!-- COMMENTI 
+La tabella per essere utilizzata dal js
+*sForm.form_id  identifica univocamente la div della tabella perchè è campo preso da DB
+
+FINE COMMENTI -->
+
+<div id="js_sqpro_{&sForm.form_id}">
+
+<table style="display:none;">
+<tr>
+
+<td class="js_nome_squadra">
+Nome squadra
+</td>
+
+<td class="js_serie_squadra">
+Serie squadra
+</td>
+
+<td class="js_nazione_squadra">
+Nazione squadra
+</td>
+
+<td class="js_img_form_squadra">
+Immagine formazione squadra inserita
+</td>
+
+<td class="js_logo_squadra">
+Logo squadra
+</td>
+
+<td class="js_maglia_squadra">
+Maglia squadra
+</td>
+
+<td class="js_torneo_squadra">
+Competizione a cui si riferisce la formazione
+</td>
+
+<td class="js_torneo_ing_squadra">
+Icona torneo a cui si riferisce la formazione
+</td>
+
+</tr>
+</table>
+
+
+</div>
